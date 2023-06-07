@@ -10,7 +10,7 @@ export default function Frontpage({ token }: any) {
     return (
         <>
             <p>hello and welcome to my awesome authenticator.</p>
-            <p onClick={() => { thing(token) }}>authenticate</p>
+            <p onClick={() => { thing(token) }} className='makeTheseADifferentColorPlease'>authenticate</p>
         </>
     )
 }
